@@ -1,0 +1,6 @@
+#!/bin/rc
+
+mk && cat examples/email.bf | bfc > email.c && pcc -o email.out email.c && ./email.out
+# mk && cat examples/test.bf | bfc > test.c && pcc -o test.out test.c && ./test.out
+# mk && cat examples/fib.bf | bfc > fib.c && pcc -o fib.out fib.c && ./fib.out
+# mk && cat examples/conway.bf | bfc > conway.c && pcc -o conway.out conway.c && ./conway.out
